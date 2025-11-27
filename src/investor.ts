@@ -6,7 +6,7 @@ export interface BankInformation {
   accountNumber: string;
 }
 
-export interface Investor {
+export interface CreateInvestorPayload {
   email: string;
   username: string;
   fullName: string;
